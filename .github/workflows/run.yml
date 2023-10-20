@@ -5,8 +5,6 @@ on:
   push:
   schedule:
     - cron: 10 16 * * *
-    - cron: 16 35 * * *
-    - cron: 16 37 * * *
 jobs:
   run:
     runs-on: ubuntu-latest
