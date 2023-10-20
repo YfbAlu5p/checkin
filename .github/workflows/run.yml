@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: 10 16 * * *
     - cron: 17 03 * * *
+    - cron: 00 01 * * *
+    - cron: 00 03 * * *
+    - cron: 01 03 * * *
 jobs:
   run:
     runs-on: ubuntu-latest
